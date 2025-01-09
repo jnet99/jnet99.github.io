@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/tutoringformat.css">
+    <title>Tutor Registration</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="row">
+             
+                <div class="col">
+                    <h3 class="title">Personal Information</h3>
+
+                    <div class="inputBox">
+                        <span>Full Name :</span>
+                        <input type="text" id="name" name="name" placeholder="Ex: John Doe">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Student Email :</span>
+                        <input type="text" id="email" name="email" placeholder="Ex: abc123@mavs.uta.edu">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Phone Number :</span>
+                        <input type="text" id="phone" name="phone" placeholder="Ex: (123) 456-7890">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3 class="title">Tutoring Information</h3>
+
+                    <div class="inputBox">
+                        <span>Subjects :</span>
+                        <input type="text" id="subjects" name="subjects" placeholder="Ex: Math, Physics">
+                    </div>
+
+                    <button type="button" id="add-course-btn" class="submit-btn">Add Course</button>
+
+                    <div class="inputBox">
+                        <span>Available Days :</span>
+                        <input type="text" id="days" name="days" placeholder="Ex: Monday, Wednesday">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Available Time :</span>
+                        <input type="text" id="time" name="time" placeholder="Ex: 10:00 AM - 2:00 PM">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Rate (per hour) :</span>
+                        <input type="text" id="rate" name="rate" placeholder="Ex: $20">
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Preferred Mode :</span>
+                        <select name="mode" id="mode" class="mode-input">
+                            <option value="in-person">In-Person</option>
+                            <option value="online">Online</option>
+                            <option value="both">Both</option>
+                        </select>
+                    </div>
+
+                    <div class="inputBox">
+                        <span>Experience (years) :</span>
+                        <input type="text" id="experience" name="experience" placeholder="Ex: 2">
+                    </div>
+                </div>
+            </div>
+
+            <button id="submit-button" class="submit-btn">Submit</button>
+            <button type="button" id="back" onclick="window.location.href = 'Tutoring.html';">Back</button>
+            <button type="button" id="home" onclick="window.location.href = 'home.html';">Home</button>
+        </form>
+    </div>
+
+    <script src="java/tutorform.js"></script>
+</body>
+</html>
