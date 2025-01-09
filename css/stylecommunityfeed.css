@@ -441,7 +441,6 @@ button[type=home]:hover {
     color: #ffffff;
     font-weight: normal;
     margin: 10px 0 0 0;
-    display: block;
 }
 }
 .feed-container {
