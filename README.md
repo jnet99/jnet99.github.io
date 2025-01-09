@@ -6,29 +6,25 @@ File Organization
 To properly set up the project, organize the files and folders as described below:
 
 SEI/
-│
-├── css/
-│   └── [css files]
-│
-├── images/
-│   └── [images png]
-│
-├── java/
-│   └── [java js files]
-│
-├── chat.html
-├── Club.html
-├── CommunityFeed.html
-├── CreateClub.html
-├── Eform copy.html
-├── home.html
-├── Lform.html
-├── Market.html
-├── payment.html
-├── search_results.html
-├── Sform.html
-├── tutorform.html
-└── Tutoring.html
+  css/
+     └── [css files]
+  images/
+     └── [images png]
+  java/
+     └── [java js files]
+chat.html
+Club.html
+CommunityFeed.html
+CreateClub.html
+Eform copy.html
+home.html
+Lform.html
+Market.html
+payment.html
+search_results.html
+Sform.html
+tutorform.html
+Tutoring.html
 
 Steps to Organize the Files
 1. CSS Files: Move all CSS files into the css/ directory.
