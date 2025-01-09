@@ -5,16 +5,16 @@ URL: http://127.0.0.1:3000/SEI/home.html
 File Organization
 To properly set up the project, organize the files and folders as described below:
 
-#SEI/
+SEI/
 css/
      └── [css files]
   images/
      └── [images png]
   java/
      └── [java js files]
-#chat.html
-#Club.html
-#CommunityFeed.html
+chat.html
+Club.html
+CommunityFeed.html
 CreateClub.html
 Eform copy.html
 home.html
