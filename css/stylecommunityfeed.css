@@ -431,11 +431,17 @@ button[type=home]:hover {
 
 .feed-section p {
     font-size: 1.2rem; 
-    color: #ffffff;
+    color: #000000;
     font-weight: normal;
     margin: 10px 0 0 0;
 }
 
+.feed-section p1 {
+    font-size: 1.2rem; 
+    color: #ffffff;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+}
 .feed-container {
     max-width: 1000px;
     margin: 25px;
