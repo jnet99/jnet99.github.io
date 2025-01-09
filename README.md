@@ -21,10 +21,10 @@ tutorform.html
 Tutoring.html
 
 1. Steps to Organize the Files
-		 a. CSS Files: Move all CSS files into the css/ directory.
-     b. Image Files: Move all image files (e.g., .png, .jpg) into the images/ directory.
-     c. Java Files: Move all Java files into the java/ directory.
-     d. HTML Files: Leave all HTML files in the root directory of the project.
+ &nbsp; a. CSS Files: Move all CSS files into the css/ directory.
+  &nbsp;   b. Image Files: Move all image files (e.g., .png, .jpg) into the images/ directory.
+  &nbsp;   c. Java Files: Move all Java files into the java/ directory.
+  &nbsp;   d. HTML Files: Leave all HTML files in the root directory of the project.
 
 2. Open the Project:
      a. Open the project folder in any code editor of your choice.
