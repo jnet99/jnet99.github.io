@@ -416,7 +416,7 @@ button[type=home]:hover {
     align-items: center;     
     height: 90vh;           
     padding: 20px 0;
-    background-image: url('/SEI/images/UTA_Background_2.jpg');
+    background-image: url('/images/UTA_Background_2.jpg');
     background-size: cover; 
     background-position: center; 
     text-align: center; 
